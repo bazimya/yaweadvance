@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+
+    android:background="@drawable/formrecycleview"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Igicuba"
+                />
+
+            <EditText
+
+                android:id="@+id/Igicuba"
+                android:layout_width="140dp"
+                android:textAlignment="center"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="23dp"
+                android:hint="ingano"
+                android:inputType="number" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="NO:"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/numbering"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/id"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp"
+            android:text="Aside"
+            />
+
+        <EditText
+            android:id="@+id/Aside"
+            android:textAlignment="center"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="33dp"
+            android:hint="Aside"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp"
+            android:text="Ubushyuhe"
+            />
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/Ubushyuhe"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="33dp"
+            android:hint="Ubushyuhe"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp"
+            android:text="Amazi"
+            />
+
+        <EditText
+            android:id="@+id/Amazi"
+            android:layout_width="180dp"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="33dp"
+            android:hint="Amazi"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Umwanzuro"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio0"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/yego"
+            android:text="Hitamo" >
+    <RadioButton
+
+        android:layout_gravity="right"
+        android:hint="Yego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yego"
+        android:text="Yego:" />
+    <RadioButton
+        android:hint="Oya"
+        android:layout_marginLeft="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Oya"
+        android:text="Oya" />
+</RadioGroup>
+
+
+    </LinearLayout>
+</LinearLayout>
